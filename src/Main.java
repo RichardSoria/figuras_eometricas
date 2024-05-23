@@ -74,6 +74,12 @@ public class Main
 
         System.out.println("Hola Mundo");
 
+        Elipse miFigura_10 = new Elipse();
+        miFigura_10.setSemi_eje_mayor(20.30);
+        miFigura_10.setSemi_eje_menor(10.15);
+        System.out.println(miFigura_10.calcularPermitero());
+        System.out.println(miFigura_10.calcularArea());
+
 
 
     }

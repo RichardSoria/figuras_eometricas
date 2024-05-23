@@ -5,13 +5,13 @@ public class Pentagono extends figuras_geometricas
 
     public Pentagono()
     {
-        super("", 5,);
+        super("", 5, true);
     }
 
 
     public Pentagono(String nombre, int numero_lados, boolean regularidad, Double lado, Double apotema)
     {
-        super(nombre,, regularidad);
+        super(nombre,numero_lados, regularidad);
         this.lado = lado;
         this.apotema = apotema;
         this.numero_lados = 5;
