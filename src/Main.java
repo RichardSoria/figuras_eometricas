@@ -70,6 +70,8 @@ public class Main
         Pentagono miFigura_9 = new Pentagono();
         System.out.println(miFigura_9.getNumeroLados());
 
+        // Este es el primer cambio
+
 
     }
 }
